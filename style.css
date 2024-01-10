@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,900&display=swap');
+*,
+*::before,
+*::after{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color:#f0f0f0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+
+/**************** APP CONTAINER ***************/
+.container{
+    width: 600px;
+    height: 530px;
+    background-color: #fff;
+    border-radius: 20px;
+    border-bottom-right-radius: 150px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    display:flex;
+    flex-direction: column;
+    padding: 40px;
+    position:relative;
+}
+
+/* CALENDAR */
+.container .calendar{
+    display:flex;
+    
+
+}
+.container .content{
+    margin: 0px 10px;
+}
+.container .content .content-title{
+    margin-bottom: 2px;
+}
+.container .content .content-title h4{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: hsl(0, 1%, 44%);
+    font-size:9px;
+}
+
+.container .content .content-input .input{
+    width: 120px;
+    height: 60px;
+    border-radius:3px;
+    outline:none;
+    border:1px solid hsl(0, 0%, 94%);
+    font-size:22px;
+    padding-left: 10px;
+    font-weight: 800;
+}
+.container .content .content-input .input::placeholder{
+    color: hsl(0, 1%, 44%);
+}
+
+/* ARROW BUTTON AND SEPARATOR */
+.separator{
+    width:80%;
+    border:0.5px solid hsl(0, 0%, 94%);
+    position:absolute;
+    top: 150px;
+    margin-left:10px;
+}
+
+.container .button-arrow-down{
+    margin-top: 20px;
+    width: 70px;
+    height:70px;
+    border-radius: 999px;
+    background-color: hsl(259, 100%, 65%);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    position:absolute;
+    right:40px;
+    top: 100px;
+    
+    
+}
+
+.container .button-arrow-down img{
+    width: 50%;
+    height: 50%;
+}
+
+/* RESULTS */
+.results{
+    position:relative;
+    top: 20%;
+    margin-left:10px;
+}
+.results .result-content{
+    display:flex;
+    align-items: center;
+  
+}
+.results .result-content .number{
+    width: 40px;
+    height: 15px;
+    background-color: hsl(259, 100%, 65%);
+    margin: 0 15px;
+    transform: skew(-15deg);
+}
+.results .result-content .text{
+    font-size: 65px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
