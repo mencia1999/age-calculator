@@ -150,4 +150,69 @@ body{
 }
 
 
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width:450px){
+    .container {
+        width: 95%;
+        height:453px;
+    }
+    .container .button-arrow-down {
+        right: 43%;
+    }
+    .container .content .content-input .input {
+        width: 100%;
+        height: 40px;
+        font-size:19px;
+    }
+    .results .result-content .text {
+        font-size: 40px;
+    }
+    .results{
+        top:30%;
+    }
+    .results .result-content .number p {
+        font-size: 6rem;
+    }
+}
+@media screen and (max-width:378px){
+    .container{
+        height:435px;
+    }
+    .container .button-arrow-down {
+        width: 60px;
+        height: 60px;
+        right:38%;
+    }
+    .container .content .content-input .input {
+       
+        font-size:16px;
+    }
+    .results .result-content .text {
+        font-size: 30px;
+    }
+    .results{
+        top:40%;
+    }
+    .results .result-content .number p {
+        font-size: 4.5rem;
+    }
+}
+@media screen and (max-width:350px){
+    .container{
+        height:405px;
+    }
+   
+    .container .content .content-input .input {
+       
+        font-size:14px;
+    }
+    .results .result-content .text {
+        font-size: 24px;
+    }
+    .results .result-content .number p {
+        font-size: 3rem;
+    }
+}
+
 
