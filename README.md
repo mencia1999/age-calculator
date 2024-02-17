@@ -26,14 +26,15 @@ Users should be able to:
 
 ## My process
 - 10/01/24 : web-design
-- 11/01/24 [to-do] : responsive-design
--                  : js-functionnality
+- 17/02/24: responsive-design and js-functionnality
+- [TO-DO ] : animate the numbers                
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - Javascript
+
 ### What I learned
 
 - css property transform: skew 
@@ -43,5 +44,5 @@ Users should be able to:
 - Frontend Mentor - [@mencia1999](https://www.frontendmentor.io/profile/mencia1999)
 
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
 
