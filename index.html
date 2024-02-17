@@ -15,6 +15,7 @@
                 </div>
                 <div class="content-input">
                     <input type="number" class="input" id="day" placeholder="DD">
+                    <p class="input-error-text"> This field is required</p>
                 </div>
             </div>
             <div class="content month">
@@ -23,6 +24,7 @@
                 </div>
                 <div class="content-input">
                     <input type="number" class="input" id="month" placeholder="MM">
+                    <p class="input-error-text"> This field is required</p>
                 </div>
             </div>
             <div class="content year">
@@ -31,30 +33,32 @@
                 </div>
                 <div class="content-input">
                     <input type="number" class="input" id="year" placeholder="YYYY">
+                    <p class="input-error-text"> This field is required</p>
                 </div>
             </div>
         </div>
         <div class="separator"></div>
-        <div class="button-arrow-down">
+        <div class="button-arrow-down" role="button" onclick="manageAge()">
             <img src="assets/images/icon-arrow.svg" alt="arrow-icon">
         </div>
         <div class="results">
             <div class="result-content years">
-                <div class="number"></div>
-                <div class="number"></div>
+                <div class="number" id="year-1"></div>
+                <div class="number" id="year-2"></div>
                 <div class="text">years</div>
             </div>
             <div class="result-content months">
-                <div class="number"></div>
-                <div class="number"></div>
+                <div class="number" id="month-1"></div>
+                <div class="number" id="month-2"></div>
                 <div class="text">months</div>
             </div>
             <div class="result-content days">
-                <div class="number"></div>
-                <div class="number"></div>
+                <div class="number" id="day-1"></div>
+                <div class="number" id="day-2"></div>
                 <div class="text">days</div>
             </div>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 </html>
